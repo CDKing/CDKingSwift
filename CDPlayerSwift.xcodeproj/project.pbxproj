@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62674F931DFAA78F007BCD85 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62674F8D1DFAA78F007BCD85 /* background.jpg */; };
+		62674F941DFAA78F007BCD85 /* bk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62674F8E1DFAA78F007BCD85 /* bk.jpg */; };
+		62674F951DFAA78F007BCD85 /* errbk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62674F8F1DFAA78F007BCD85 /* errbk.jpg */; };
+		62674F961DFAA78F007BCD85 /* grassbk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62674F901DFAA78F007BCD85 /* grassbk.jpg */; };
+		62674F971DFAA78F007BCD85 /* markA.png in Resources */ = {isa = PBXBuildFile; fileRef = 62674F911DFAA78F007BCD85 /* markA.png */; };
+		62674F981DFAA78F007BCD85 /* markB.png in Resources */ = {isa = PBXBuildFile; fileRef = 62674F921DFAA78F007BCD85 /* markB.png */; };
+		62674F9C1DFAA82F007BCD85 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62674F9A1DFAA82F007BCD85 /* CameraVC.swift */; };
+		62674F9D1DFAA82F007BCD85 /* hahaha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62674F9B1DFAA82F007BCD85 /* hahaha.swift */; };
+		62674FA01DFAA839007BCD85 /* CD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62674F9E1DFAA839007BCD85 /* CD.jpg */; };
+		62674FA11DFAA839007BCD85 /* SubCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62674F9F1DFAA839007BCD85 /* SubCollectionViewCell.swift */; };
+		62687EE11DFA8C3900A1C9A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62687EE01DFA8C3900A1C9A9 /* AppDelegate.swift */; };
+		62687EE81DFA8C3900A1C9A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62687EE71DFA8C3900A1C9A9 /* Assets.xcassets */; };
+		62687EEB1DFA8C3900A1C9A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62687EE91DFA8C3900A1C9A9 /* LaunchScreen.storyboard */; };
+		62687EF61DFA8C3900A1C9A9 /* CDPlayerSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62687EF51DFA8C3900A1C9A9 /* CDPlayerSwiftTests.swift */; };
+		62687F011DFA8C3900A1C9A9 /* CDPlayerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62687F001DFA8C3900A1C9A9 /* CDPlayerSwiftUITests.swift */; };
+		62687F121DFA8DC200A1C9A9 /* FirstUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62687F111DFA8DC200A1C9A9 /* FirstUserViewController.swift */; };
+		62687F191DFA8DF700A1C9A9 /* UIFont.png in Resources */ = {isa = PBXBuildFile; fileRef = 62687F141DFA8DF700A1C9A9 /* UIFont.png */; };
+		62687F1A1DFA8DF700A1C9A9 /* hello.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62687F151DFA8DF700A1C9A9 /* hello.jpg */; };
+		62687F1B1DFA8DF700A1C9A9 /* ImgScrollViewImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62687F161DFA8DF700A1C9A9 /* ImgScrollViewImage.jpg */; };
+		62687F1C1DFA8DF700A1C9A9 /* UIColorA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62687F171DFA8DF700A1C9A9 /* UIColorA.jpg */; };
+		62687F1D1DFA8DF700A1C9A9 /* UIColorB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62687F181DFA8DF700A1C9A9 /* UIColorB.jpg */; };
+		62687F201DFA90B700A1C9A9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62687F1F1DFA90B700A1C9A9 /* MainTabBarController.swift */; };
+		62687F251DFA923F00A1C9A9 /* UIKitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62687F241DFA923F00A1C9A9 /* UIKitVC.swift */; };
+		62687F271DFA925000A1C9A9 /* FoundationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62687F261DFA925000A1C9A9 /* FoundationVC.swift */; };
+		62687F2A1DFA926B00A1C9A9 /* OthersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62687F291DFA926B00A1C9A9 /* OthersVC.swift */; };
+		62687F2D1DFA959400A1C9A9 /* IntroduceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62687F2C1DFA959400A1C9A9 /* IntroduceVC.swift */; };
+		62687F301DFA97BC00A1C9A9 /* UIViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62687F2F1DFA97BC00A1C9A9 /* UIViewVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62687EF21DFA8C3900A1C9A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62687ED51DFA8C3900A1C9A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62687EDC1DFA8C3900A1C9A9;
+			remoteInfo = CDPlayerSwift;
+		};
+		62687EFD1DFA8C3900A1C9A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62687ED51DFA8C3900A1C9A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62687EDC1DFA8C3900A1C9A9;
+			remoteInfo = CDPlayerSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62674F8D1DFAA78F007BCD85 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		62674F8E1DFAA78F007BCD85 /* bk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bk.jpg; sourceTree = "<group>"; };
+		62674F8F1DFAA78F007BCD85 /* errbk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = errbk.jpg; sourceTree = "<group>"; };
+		62674F901DFAA78F007BCD85 /* grassbk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grassbk.jpg; sourceTree = "<group>"; };
+		62674F911DFAA78F007BCD85 /* markA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = markA.png; sourceTree = "<group>"; };
+		62674F921DFAA78F007BCD85 /* markB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = markB.png; sourceTree = "<group>"; };
+		62674F9A1DFAA82F007BCD85 /* CameraVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		62674F9B1DFAA82F007BCD85 /* hahaha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hahaha.swift; sourceTree = "<group>"; };
+		62674F9E1DFAA839007BCD85 /* CD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CD.jpg; sourceTree = "<group>"; };
+		62674F9F1DFAA839007BCD85 /* SubCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCollectionViewCell.swift; sourceTree = "<group>"; };
+		62687EDD1DFA8C3900A1C9A9 /* CDPlayerSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDPlayerSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62687EE01DFA8C3900A1C9A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62687EE71DFA8C3900A1C9A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62687EEA1DFA8C3900A1C9A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62687EEC1DFA8C3900A1C9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62687EF11DFA8C3900A1C9A9 /* CDPlayerSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDPlayerSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62687EF51DFA8C3900A1C9A9 /* CDPlayerSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDPlayerSwiftTests.swift; sourceTree = "<group>"; };
+		62687EF71DFA8C3900A1C9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62687EFC1DFA8C3900A1C9A9 /* CDPlayerSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDPlayerSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62687F001DFA8C3900A1C9A9 /* CDPlayerSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDPlayerSwiftUITests.swift; sourceTree = "<group>"; };
+		62687F021DFA8C3900A1C9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62687F111DFA8DC200A1C9A9 /* FirstUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstUserViewController.swift; sourceTree = "<group>"; };
+		62687F141DFA8DF700A1C9A9 /* UIFont.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIFont.png; sourceTree = "<group>"; };
+		62687F151DFA8DF700A1C9A9 /* hello.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hello.jpg; sourceTree = "<group>"; };
+		62687F161DFA8DF700A1C9A9 /* ImgScrollViewImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImgScrollViewImage.jpg; sourceTree = "<group>"; };
+		62687F171DFA8DF700A1C9A9 /* UIColorA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UIColorA.jpg; sourceTree = "<group>"; };
+		62687F181DFA8DF700A1C9A9 /* UIColorB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UIColorB.jpg; sourceTree = "<group>"; };
+		62687F1F1DFA90B700A1C9A9 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		62687F241DFA923F00A1C9A9 /* UIKitVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitVC.swift; sourceTree = "<group>"; };
+		62687F261DFA925000A1C9A9 /* FoundationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationVC.swift; sourceTree = "<group>"; };
+		62687F291DFA926B00A1C9A9 /* OthersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OthersVC.swift; sourceTree = "<group>"; };
+		62687F2C1DFA959400A1C9A9 /* IntroduceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroduceVC.swift; sourceTree = "<group>"; };
+		62687F2F1DFA97BC00A1C9A9 /* UIViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62687EDA1DFA8C3900A1C9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62687EEE1DFA8C3900A1C9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62687EF91DFA8C3900A1C9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62674F991DFAA81A007BCD85 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				62674F9A1DFAA82F007BCD85 /* CameraVC.swift */,
+				62674F9B1DFAA82F007BCD85 /* hahaha.swift */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		62687ED41DFA8C3900A1C9A9 = {
+			isa = PBXGroup;
+			children = (
+				62687EDF1DFA8C3900A1C9A9 /* CDPlayerSwift */,
+				62687EF41DFA8C3900A1C9A9 /* CDPlayerSwiftTests */,
+				62687EFF1DFA8C3900A1C9A9 /* CDPlayerSwiftUITests */,
+				62687EDE1DFA8C3900A1C9A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62687EDE1DFA8C3900A1C9A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62687EDD1DFA8C3900A1C9A9 /* CDPlayerSwift.app */,
+				62687EF11DFA8C3900A1C9A9 /* CDPlayerSwiftTests.xctest */,
+				62687EFC1DFA8C3900A1C9A9 /* CDPlayerSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62687EDF1DFA8C3900A1C9A9 /* CDPlayerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				62687F0F1DFA8D7F00A1C9A9 /* SupportFile */,
+				62687F0E1DFA8D7200A1C9A9 /* RootView */,
+			);
+			path = CDPlayerSwift;
+			sourceTree = "<group>";
+		};
+		62687EF41DFA8C3900A1C9A9 /* CDPlayerSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				62687EF51DFA8C3900A1C9A9 /* CDPlayerSwiftTests.swift */,
+				62687EF71DFA8C3900A1C9A9 /* Info.plist */,
+			);
+			path = CDPlayerSwiftTests;
+			sourceTree = "<group>";
+		};
+		62687EFF1DFA8C3900A1C9A9 /* CDPlayerSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62687F001DFA8C3900A1C9A9 /* CDPlayerSwiftUITests.swift */,
+				62687F021DFA8C3900A1C9A9 /* Info.plist */,
+			);
+			path = CDPlayerSwiftUITests;
+			sourceTree = "<group>";
+		};
+		62687F0E1DFA8D7200A1C9A9 /* RootView */ = {
+			isa = PBXGroup;
+			children = (
+				62687F1E1DFA907500A1C9A9 /* MainView */,
+				62687F101DFA8DA700A1C9A9 /* FirstUseView */,
+			);
+			name = RootView;
+			sourceTree = "<group>";
+		};
+		62687F0F1DFA8D7F00A1C9A9 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				62687F131DFA8DEA00A1C9A9 /* Image */,
+				62687EE01DFA8C3900A1C9A9 /* AppDelegate.swift */,
+				62687EE71DFA8C3900A1C9A9 /* Assets.xcassets */,
+				62687EE91DFA8C3900A1C9A9 /* LaunchScreen.storyboard */,
+				62687EEC1DFA8C3900A1C9A9 /* Info.plist */,
+			);
+			name = SupportFile;
+			sourceTree = "<group>";
+		};
+		62687F101DFA8DA700A1C9A9 /* FirstUseView */ = {
+			isa = PBXGroup;
+			children = (
+				62687F111DFA8DC200A1C9A9 /* FirstUserViewController.swift */,
+			);
+			name = FirstUseView;
+			sourceTree = "<group>";
+		};
+		62687F131DFA8DEA00A1C9A9 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				62687F141DFA8DF700A1C9A9 /* UIFont.png */,
+				62687F151DFA8DF700A1C9A9 /* hello.jpg */,
+				62687F161DFA8DF700A1C9A9 /* ImgScrollViewImage.jpg */,
+				62687F171DFA8DF700A1C9A9 /* UIColorA.jpg */,
+				62687F181DFA8DF700A1C9A9 /* UIColorB.jpg */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		62687F1E1DFA907500A1C9A9 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				62687F1F1DFA90B700A1C9A9 /* MainTabBarController.swift */,
+				62687F211DFA920D00A1C9A9 /* UIKit */,
+				62687F221DFA921200A1C9A9 /* Foundation */,
+				62687F231DFA921A00A1C9A9 /* Others */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		62687F211DFA920D00A1C9A9 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				62687F241DFA923F00A1C9A9 /* UIKitVC.swift */,
+				62687F2B1DFA958100A1C9A9 /* Introoduce */,
+				62687F2E1DFA97A500A1C9A9 /* Items */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		62687F221DFA921200A1C9A9 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				62674F8D1DFAA78F007BCD85 /* background.jpg */,
+				62674F8E1DFAA78F007BCD85 /* bk.jpg */,
+				62674F8F1DFAA78F007BCD85 /* errbk.jpg */,
+				62674F901DFAA78F007BCD85 /* grassbk.jpg */,
+				62674F911DFAA78F007BCD85 /* markA.png */,
+				62674F921DFAA78F007BCD85 /* markB.png */,
+				62687F261DFA925000A1C9A9 /* FoundationVC.swift */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		62687F231DFA921A00A1C9A9 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				62687F291DFA926B00A1C9A9 /* OthersVC.swift */,
+				62674F9E1DFAA839007BCD85 /* CD.jpg */,
+				62674F9F1DFAA839007BCD85 /* SubCollectionViewCell.swift */,
+				62674F991DFAA81A007BCD85 /* Camera */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		62687F2B1DFA958100A1C9A9 /* Introoduce */ = {
+			isa = PBXGroup;
+			children = (
+				62687F2C1DFA959400A1C9A9 /* IntroduceVC.swift */,
+			);
+			name = Introoduce;
+			sourceTree = "<group>";
+		};
+		62687F2E1DFA97A500A1C9A9 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				62687F2F1DFA97BC00A1C9A9 /* UIViewVC.swift */,
+			);
+			name = Items;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62687EDC1DFA8C3900A1C9A9 /* CDPlayerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62687F051DFA8C3900A1C9A9 /* Build configuration list for PBXNativeTarget "CDPlayerSwift" */;
+			buildPhases = (
+				62687ED91DFA8C3900A1C9A9 /* Sources */,
+				62687EDA1DFA8C3900A1C9A9 /* Frameworks */,
+				62687EDB1DFA8C3900A1C9A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDPlayerSwift;
+			productName = CDPlayerSwift;
+			productReference = 62687EDD1DFA8C3900A1C9A9 /* CDPlayerSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62687EF01DFA8C3900A1C9A9 /* CDPlayerSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62687F081DFA8C3900A1C9A9 /* Build configuration list for PBXNativeTarget "CDPlayerSwiftTests" */;
+			buildPhases = (
+				62687EED1DFA8C3900A1C9A9 /* Sources */,
+				62687EEE1DFA8C3900A1C9A9 /* Frameworks */,
+				62687EEF1DFA8C3900A1C9A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62687EF31DFA8C3900A1C9A9 /* PBXTargetDependency */,
+			);
+			name = CDPlayerSwiftTests;
+			productName = CDPlayerSwiftTests;
+			productReference = 62687EF11DFA8C3900A1C9A9 /* CDPlayerSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62687EFB1DFA8C3900A1C9A9 /* CDPlayerSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62687F0B1DFA8C3900A1C9A9 /* Build configuration list for PBXNativeTarget "CDPlayerSwiftUITests" */;
+			buildPhases = (
+				62687EF81DFA8C3900A1C9A9 /* Sources */,
+				62687EF91DFA8C3900A1C9A9 /* Frameworks */,
+				62687EFA1DFA8C3900A1C9A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62687EFE1DFA8C3900A1C9A9 /* PBXTargetDependency */,
+			);
+			name = CDPlayerSwiftUITests;
+			productName = CDPlayerSwiftUITests;
+			productReference = 62687EFC1DFA8C3900A1C9A9 /* CDPlayerSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62687ED51DFA8C3900A1C9A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = CDPlayer;
+				TargetAttributes = {
+					62687EDC1DFA8C3900A1C9A9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KJ549U6CCY;
+						ProvisioningStyle = Automatic;
+					};
+					62687EF01DFA8C3900A1C9A9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KJ549U6CCY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62687EDC1DFA8C3900A1C9A9;
+					};
+					62687EFB1DFA8C3900A1C9A9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KJ549U6CCY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62687EDC1DFA8C3900A1C9A9;
+					};
+				};
+			};
+			buildConfigurationList = 62687ED81DFA8C3900A1C9A9 /* Build configuration list for PBXProject "CDPlayerSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62687ED41DFA8C3900A1C9A9;
+			productRefGroup = 62687EDE1DFA8C3900A1C9A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62687EDC1DFA8C3900A1C9A9 /* CDPlayerSwift */,
+				62687EF01DFA8C3900A1C9A9 /* CDPlayerSwiftTests */,
+				62687EFB1DFA8C3900A1C9A9 /* CDPlayerSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62687EDB1DFA8C3900A1C9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62674FA01DFAA839007BCD85 /* CD.jpg in Resources */,
+				62674F971DFAA78F007BCD85 /* markA.png in Resources */,
+				62674F951DFAA78F007BCD85 /* errbk.jpg in Resources */,
+				62687F1D1DFA8DF700A1C9A9 /* UIColorB.jpg in Resources */,
+				62687F1A1DFA8DF700A1C9A9 /* hello.jpg in Resources */,
+				62687EEB1DFA8C3900A1C9A9 /* LaunchScreen.storyboard in Resources */,
+				62687EE81DFA8C3900A1C9A9 /* Assets.xcassets in Resources */,
+				62674F961DFAA78F007BCD85 /* grassbk.jpg in Resources */,
+				62687F1C1DFA8DF700A1C9A9 /* UIColorA.jpg in Resources */,
+				62674F981DFAA78F007BCD85 /* markB.png in Resources */,
+				62674F931DFAA78F007BCD85 /* background.jpg in Resources */,
+				62674F941DFAA78F007BCD85 /* bk.jpg in Resources */,
+				62687F191DFA8DF700A1C9A9 /* UIFont.png in Resources */,
+				62687F1B1DFA8DF700A1C9A9 /* ImgScrollViewImage.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62687EEF1DFA8C3900A1C9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62687EFA1DFA8C3900A1C9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62687ED91DFA8C3900A1C9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62687F121DFA8DC200A1C9A9 /* FirstUserViewController.swift in Sources */,
+				62674F9C1DFAA82F007BCD85 /* CameraVC.swift in Sources */,
+				62674F9D1DFAA82F007BCD85 /* hahaha.swift in Sources */,
+				62687F2A1DFA926B00A1C9A9 /* OthersVC.swift in Sources */,
+				62687EE11DFA8C3900A1C9A9 /* AppDelegate.swift in Sources */,
+				62687F301DFA97BC00A1C9A9 /* UIViewVC.swift in Sources */,
+				62687F271DFA925000A1C9A9 /* FoundationVC.swift in Sources */,
+				62687F201DFA90B700A1C9A9 /* MainTabBarController.swift in Sources */,
+				62687F2D1DFA959400A1C9A9 /* IntroduceVC.swift in Sources */,
+				62687F251DFA923F00A1C9A9 /* UIKitVC.swift in Sources */,
+				62674FA11DFAA839007BCD85 /* SubCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62687EED1DFA8C3900A1C9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62687EF61DFA8C3900A1C9A9 /* CDPlayerSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62687EF81DFA8C3900A1C9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62687F011DFA8C3900A1C9A9 /* CDPlayerSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62687EF31DFA8C3900A1C9A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62687EDC1DFA8C3900A1C9A9 /* CDPlayerSwift */;
+			targetProxy = 62687EF21DFA8C3900A1C9A9 /* PBXContainerItemProxy */;
+		};
+		62687EFE1DFA8C3900A1C9A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62687EDC1DFA8C3900A1C9A9 /* CDPlayerSwift */;
+			targetProxy = 62687EFD1DFA8C3900A1C9A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62687EE91DFA8C3900A1C9A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62687EEA1DFA8C3900A1C9A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62687F031DFA8C3900A1C9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62687F041DFA8C3900A1C9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62687F061DFA8C3900A1C9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KJ549U6CCY;
+				INFOPLIST_FILE = CDPlayerSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChenDa.CDPlayerSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		62687F071DFA8C3900A1C9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KJ549U6CCY;
+				INFOPLIST_FILE = CDPlayerSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChenDa.CDPlayerSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		62687F091DFA8C3900A1C9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KJ549U6CCY;
+				INFOPLIST_FILE = CDPlayerSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChenDa.CDPlayerSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDPlayerSwift.app/CDPlayerSwift";
+			};
+			name = Debug;
+		};
+		62687F0A1DFA8C3900A1C9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KJ549U6CCY;
+				INFOPLIST_FILE = CDPlayerSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChenDa.CDPlayerSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDPlayerSwift.app/CDPlayerSwift";
+			};
+			name = Release;
+		};
+		62687F0C1DFA8C3900A1C9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KJ549U6CCY;
+				INFOPLIST_FILE = CDPlayerSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChenDa.CDPlayerSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CDPlayerSwift;
+			};
+			name = Debug;
+		};
+		62687F0D1DFA8C3900A1C9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KJ549U6CCY;
+				INFOPLIST_FILE = CDPlayerSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChenDa.CDPlayerSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CDPlayerSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62687ED81DFA8C3900A1C9A9 /* Build configuration list for PBXProject "CDPlayerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62687F031DFA8C3900A1C9A9 /* Debug */,
+				62687F041DFA8C3900A1C9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62687F051DFA8C3900A1C9A9 /* Build configuration list for PBXNativeTarget "CDPlayerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62687F061DFA8C3900A1C9A9 /* Debug */,
+				62687F071DFA8C3900A1C9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62687F081DFA8C3900A1C9A9 /* Build configuration list for PBXNativeTarget "CDPlayerSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62687F091DFA8C3900A1C9A9 /* Debug */,
+				62687F0A1DFA8C3900A1C9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62687F0B1DFA8C3900A1C9A9 /* Build configuration list for PBXNativeTarget "CDPlayerSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62687F0C1DFA8C3900A1C9A9 /* Debug */,
+				62687F0D1DFA8C3900A1C9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62687ED51DFA8C3900A1C9A9 /* Project object */;
+}
