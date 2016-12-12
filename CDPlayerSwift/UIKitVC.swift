@@ -20,7 +20,7 @@ class UIKitVC: UIViewController ,UITableViewDelegate ,UITableViewDataSource{
     let control   : UIControlVC
     let label     : UILabelVC
     let font      : UIFontVC
-//    let color     : UIColorVC
+    let color     : UIColorVC
     let tableView : UITableView
     let itemArray : Array = ["说明","视图 UIView","控制器 UIControl","标签 UILabel:UIView..","字体 UIFont","颜色 UIColor","按钮 UIButton:UIControl..","输入框 UITextField","图片 UIImage","图片视图 UIImageView","开关 UISwitch","步进 UIStepper","分段控制 UISegmentedControl","进度 UIProgressView","选择 UIPickerView"]
     
@@ -31,7 +31,7 @@ class UIKitVC: UIViewController ,UITableViewDelegate ,UITableViewDataSource{
         control = UIControlVC()
         label = UILabelVC()
         font = UIFontVC()
-//        color = UIColorVC()
+        color = UIColorVC()
         tableView = UITableView(frame: CGRect(x: 5, y: -350.0, width: WIDTH-10, height: 350), style: UITableViewStyle.plain)
         super.init(nibName: nil, bundle: nil)
     }
@@ -120,7 +120,7 @@ class UIKitVC: UIViewController ,UITableViewDelegate ,UITableViewDataSource{
             viewCD.view.addSubview(font.view)
             name = "字体"
         case 5:
-//            viewCD.view.addSubview(color.view)
+            viewCD.view.addSubview(color.view)
             name = "颜色"
         default:
             viewCD.view.addSubview(introduce.view)

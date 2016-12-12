@@ -37,6 +37,7 @@
 		62BC5E7E1DFE38BD004C9FBE /* UIControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC5E7D1DFE38BD004C9FBE /* UIControlVC.swift */; };
 		62BC5E801DFE3E3D004C9FBE /* UILabelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC5E7F1DFE3E3D004C9FBE /* UILabelVC.swift */; };
 		62BC5E821DFE414E004C9FBE /* UIFontVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC5E811DFE414E004C9FBE /* UIFontVC.swift */; };
+		62BC5E841DFE4953004C9FBE /* UIColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC5E831DFE4953004C9FBE /* UIColorVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		62BC5E7D1DFE38BD004C9FBE /* UIControlVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIControlVC.swift; sourceTree = "<group>"; };
 		62BC5E7F1DFE3E3D004C9FBE /* UILabelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelVC.swift; sourceTree = "<group>"; };
 		62BC5E811DFE414E004C9FBE /* UIFontVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontVC.swift; sourceTree = "<group>"; };
+		62BC5E831DFE4953004C9FBE /* UIColorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +280,7 @@
 				62BC5E7D1DFE38BD004C9FBE /* UIControlVC.swift */,
 				62BC5E7F1DFE3E3D004C9FBE /* UILabelVC.swift */,
 				62BC5E811DFE414E004C9FBE /* UIFontVC.swift */,
+				62BC5E831DFE4953004C9FBE /* UIColorVC.swift */,
 			);
 			name = Items;
 			sourceTree = "<group>";
@@ -437,6 +440,7 @@
 				62687F2A1DFA926B00A1C9A9 /* OthersVC.swift in Sources */,
 				62BC5E7E1DFE38BD004C9FBE /* UIControlVC.swift in Sources */,
 				62687EE11DFA8C3900A1C9A9 /* AppDelegate.swift in Sources */,
+				62BC5E841DFE4953004C9FBE /* UIColorVC.swift in Sources */,
 				62BC5E821DFE414E004C9FBE /* UIFontVC.swift in Sources */,
 				62687F301DFA97BC00A1C9A9 /* UIViewVC.swift in Sources */,
 				62687F271DFA925000A1C9A9 /* FoundationVC.swift in Sources */,
