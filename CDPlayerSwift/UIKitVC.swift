@@ -17,8 +17,8 @@ class UIKitVC: UIViewController ,UITableViewDelegate ,UITableViewDataSource{
     let viewCD : UIViewController
     let introduce : IntroduceVC
     let viewItem  : UIViewVC
-//    let control   : UIControlVC
-//    let label     : UILabelVC
+    let control   : UIControlVC
+    let label     : UILabelVC
 //    let font      : UIFontVC
 //    let color     : UIColorVC
     let tableView : UITableView
@@ -28,8 +28,8 @@ class UIKitVC: UIViewController ,UITableViewDelegate ,UITableViewDataSource{
         introduce = IntroduceVC()
         viewCD = UIViewController()
         viewItem = UIViewVC()
-//        control = UIControlVC()
-//        label = UILabelVC()
+        control = UIControlVC()
+        label = UILabelVC()
 //        font = UIFontVC()
 //        color = UIColorVC()
         tableView = UITableView(frame: CGRect(x: 5, y: -350.0, width: WIDTH-10, height: 350), style: UITableViewStyle.plain)
@@ -110,11 +110,11 @@ class UIKitVC: UIViewController ,UITableViewDelegate ,UITableViewDataSource{
             name = "视图"
             break
         case 2:
-//            viewCD.view.addSubview(control.view)
+            viewCD.view.addSubview(control.view)
             name = "控制器"
             break
         case 3:
-//            viewCD.view.addSubview(label.view)
+            viewCD.view.addSubview(label.view)
             name = "标签"
         case 4:
 //            viewCD.view.addSubview(font.view)

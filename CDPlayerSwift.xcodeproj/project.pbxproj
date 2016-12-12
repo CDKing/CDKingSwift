@@ -35,6 +35,7 @@
 		62687F2D1DFA959400A1C9A9 /* IntroduceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62687F2C1DFA959400A1C9A9 /* IntroduceVC.swift */; };
 		62687F301DFA97BC00A1C9A9 /* UIViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62687F2F1DFA97BC00A1C9A9 /* UIViewVC.swift */; };
 		62BC5E7E1DFE38BD004C9FBE /* UIControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC5E7D1DFE38BD004C9FBE /* UIControlVC.swift */; };
+		62BC5E801DFE3E3D004C9FBE /* UILabelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC5E7F1DFE3E3D004C9FBE /* UILabelVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		62687F2C1DFA959400A1C9A9 /* IntroduceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroduceVC.swift; sourceTree = "<group>"; };
 		62687F2F1DFA97BC00A1C9A9 /* UIViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewVC.swift; sourceTree = "<group>"; };
 		62BC5E7D1DFE38BD004C9FBE /* UIControlVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIControlVC.swift; sourceTree = "<group>"; };
+		62BC5E7F1DFE3E3D004C9FBE /* UILabelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +274,7 @@
 			children = (
 				62687F2F1DFA97BC00A1C9A9 /* UIViewVC.swift */,
 				62BC5E7D1DFE38BD004C9FBE /* UIControlVC.swift */,
+				62BC5E7F1DFE3E3D004C9FBE /* UILabelVC.swift */,
 			);
 			name = Items;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62687F121DFA8DC200A1C9A9 /* FirstUserViewController.swift in Sources */,
+				62BC5E801DFE3E3D004C9FBE /* UILabelVC.swift in Sources */,
 				62674F9C1DFAA82F007BCD85 /* CameraVC.swift in Sources */,
 				62674F9D1DFAA82F007BCD85 /* hahaha.swift in Sources */,
 				62687F2A1DFA926B00A1C9A9 /* OthersVC.swift in Sources */,
