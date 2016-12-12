@@ -34,6 +34,7 @@
 		62687F2A1DFA926B00A1C9A9 /* OthersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62687F291DFA926B00A1C9A9 /* OthersVC.swift */; };
 		62687F2D1DFA959400A1C9A9 /* IntroduceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62687F2C1DFA959400A1C9A9 /* IntroduceVC.swift */; };
 		62687F301DFA97BC00A1C9A9 /* UIViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62687F2F1DFA97BC00A1C9A9 /* UIViewVC.swift */; };
+		62BC5E7E1DFE38BD004C9FBE /* UIControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC5E7D1DFE38BD004C9FBE /* UIControlVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		62687F291DFA926B00A1C9A9 /* OthersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OthersVC.swift; sourceTree = "<group>"; };
 		62687F2C1DFA959400A1C9A9 /* IntroduceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroduceVC.swift; sourceTree = "<group>"; };
 		62687F2F1DFA97BC00A1C9A9 /* UIViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewVC.swift; sourceTree = "<group>"; };
+		62BC5E7D1DFE38BD004C9FBE /* UIControlVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIControlVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				62687F2F1DFA97BC00A1C9A9 /* UIViewVC.swift */,
+				62BC5E7D1DFE38BD004C9FBE /* UIControlVC.swift */,
 			);
 			name = Items;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				62674F9C1DFAA82F007BCD85 /* CameraVC.swift in Sources */,
 				62674F9D1DFAA82F007BCD85 /* hahaha.swift in Sources */,
 				62687F2A1DFA926B00A1C9A9 /* OthersVC.swift in Sources */,
+				62BC5E7E1DFE38BD004C9FBE /* UIControlVC.swift in Sources */,
 				62687EE11DFA8C3900A1C9A9 /* AppDelegate.swift in Sources */,
 				62687F301DFA97BC00A1C9A9 /* UIViewVC.swift in Sources */,
 				62687F271DFA925000A1C9A9 /* FoundationVC.swift in Sources */,
