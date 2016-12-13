@@ -61,9 +61,14 @@ class OthersVC: UIViewController ,UICollectionViewDelegate,UICollectionViewDataS
         let a = arc4random()%255
         let b = arc4random()%255
         let c = arc4random()%255
-        cell!.backgroundColor = UIColor.init(red: CGFloat(a)/255 , green: CGFloat(b)/255, blue: CGFloat(c)/255, alpha: 0.5)
-        if indexPath.row != 1 {
-            cell!.backgroundColor = UIColor(red: 1/255.0, green: 1/255.0, blue: 1/255.0, alpha: 0.2)
+        
+        cell!.backgroundColor = UIColor(red: 1/255.0, green: 1/255.0, blue: 1/255.0, alpha: 0.2)
+        
+        if indexPath.row == 0 {
+            cell!.backgroundColor = UIColor.init(red: CGFloat(a)/255 , green: CGFloat(b)/255, blue: CGFloat(c)/255, alpha: 0.5)
+        }
+        if indexPath.row == 1 {
+            cell!.backgroundColor = UIColor.init(red: CGFloat(a)/255 , green: CGFloat(b)/255, blue: CGFloat(c)/255, alpha: 0.5)
         }
         
         let subArr : NSArray = otherName[indexPath.row] as! NSArray
@@ -93,6 +98,8 @@ class OthersVC: UIViewController ,UICollectionViewDelegate,UICollectionViewDataS
     
     func jumpToSubView(_ pageIndexPath : IndexPath){
         switch pageIndexPath.row {
+        case 0:
+            self.present(MapVC(), animated: true, completion: nil)
         case 1:
             self.present(CameraVC(), animated: true, completion: nil)
         default:
