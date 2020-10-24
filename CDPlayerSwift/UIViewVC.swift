@@ -534,20 +534,20 @@ class UIViewVC: UIViewController, UITableViewDelegate, UITableViewDataSource{
         }
     }
     
-    func scale(_ sender : UIPinchGestureRecognizer){
+    @objc func scale(_ sender : UIPinchGestureRecognizer){
         a.transform = CGAffineTransform(scaleX: sender.scale, y: sender.scale)
     }
-    func rotate(_ sender : UIRotationGestureRecognizer){
+    @objc func rotate(_ sender : UIRotationGestureRecognizer){
         a.transform = CGAffineTransform(rotationAngle: sender.rotation)
     }
-    func tap(){
+    @objc func tap(){
         let aa = CGFloat(arc4random()%255)
         let bb = CGFloat(arc4random()%255)
         let cc = CGFloat(arc4random()%255)
         a.backgroundColor = UIColor(red: aa/255.0, green: bb/255.0, blue: cc/255.0, alpha: 0.2)
     }
     
-    func tabFun(_ recoginzer : UITapGestureRecognizer){
+    @objc func tabFun(_ recoginzer : UITapGestureRecognizer){
         let tag : Int = (recoginzer.view?.tag)!
         let num : NSArray = attributeArr[tag] as! NSArray
         let count : NSArray = num.lastObject as! NSArray

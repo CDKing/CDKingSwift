@@ -59,11 +59,11 @@ class CameraVC: UIViewController ,UINavigationControllerDelegate,UIImagePickerCo
         NotificationCenter.default.addObserver(self, selector: #selector(self.reveiceObserver(_:)), name: NSNotification.Name(rawValue: "CAMERA"), object: nil)
     }
     
-    func dismissViewC(){
+    @objc func dismissViewC(){
         self.dismiss(animated: true, completion: nil)
     }
     
-    func reveiceObserver(_ commond : Notification){
+    @objc func reveiceObserver(_ commond : Notification){
         let any = commond.object
         print("\((any as AnyObject).classForCoder)");
         if (any as AnyObject).classForCoder == NSNumber.classForCoder() {

@@ -271,27 +271,27 @@ class UILabelVC: UIViewController, UITableViewDelegate, UITableViewDataSource{
                 a.font = UIFont.systemFont(ofSize: 20)
             case 4:
                 let attributeString = NSMutableAttributedString(string:"UILabel")
-                attributeString.addAttribute(NSFontAttributeName, value: UIFont.boldSystemFont(ofSize: 30),
+                attributeString.addAttribute(NSAttributedStringKey.font, value: UIFont.boldSystemFont(ofSize: 30),
                                              range: NSMakeRange(0,1))
                 a.attributedText = attributeString
             case 5:
                 let attributeString = NSMutableAttributedString(string:"UILabel")
-                attributeString.addAttribute(NSForegroundColorAttributeName, value: UIColor.green,
+                attributeString.addAttribute(NSAttributedStringKey.foregroundColor, value: UIColor.green,
                                              range: NSMakeRange(1,1))
                 a.attributedText = attributeString
             case 6:
                 let attributeString = NSMutableAttributedString(string:"UILabel")
-                attributeString.addAttribute(NSBackgroundColorAttributeName, value: UIColor.yellow,
+                attributeString.addAttribute(NSAttributedStringKey.backgroundColor, value: UIColor.yellow,
                                              range: NSMakeRange(2,1))
                 a.attributedText = attributeString
             case 7:
                 let attributeString = NSMutableAttributedString(string:"UILabel")
-                attributeString.addAttribute(NSUnderlineStyleAttributeName, value:NSUnderlineStyle.styleDouble.rawValue,
+                attributeString.addAttribute(NSAttributedStringKey.underlineStyle, value:NSUnderlineStyle.styleDouble.rawValue,
                                              range: NSMakeRange(3,1))
                 a.attributedText = attributeString
             case 8:
                 let attributeString = NSMutableAttributedString(string:"UILabel")
-                attributeString.addAttribute(NSStrikethroughStyleAttributeName, value:NSUnderlineStyle.styleSingle.rawValue,
+                attributeString.addAttribute(NSAttributedStringKey.strikethroughStyle, value:NSUnderlineStyle.styleSingle.rawValue,
                                              range: NSMakeRange(4,1))
                 a.attributedText = attributeString
             default:
@@ -411,7 +411,7 @@ class UILabelVC: UIViewController, UITableViewDelegate, UITableViewDataSource{
             
         }
     }
-    func tab(_ recoginzer : UITapGestureRecognizer){
+    @objc func tab(_ recoginzer : UITapGestureRecognizer){
         let tag : Int = (recoginzer.view?.tag)!
         let num : NSArray = attributeArr[tag] as! NSArray
         let count : NSArray = num.lastObject as! NSArray

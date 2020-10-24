@@ -178,18 +178,18 @@ class FoundationVC: UIViewController ,UITableViewDelegate ,UITableViewDataSource
         })
     }
     // MARK: ButtonAction
-    func btnTouchDown(){
+    @objc func btnTouchDown(){
         tableView?.reloadData()
         UITableView.animate(withDuration: 0.2, animations: {
             self.tableView!.frame = CGRect(x: 0, y: 64, width: self.W, height: self.H-44-64)
         })
     }
-    func btn2TouchDown(){
+    @objc func btn2TouchDown(){
         UITableView.animate(withDuration: 0.2, animations: {
             self.tableView!.frame = CGRect(x: 0, y: -1*self.H, width: self.tableView!.frame.width, height: self.tableView!.frame.height)
         })
     }
-    func btn3TouchDown(){
+    @objc func btn3TouchDown(){
         chacheArr = Array(repeating: "0", count: 35)
         tableView?.reloadData()
     }

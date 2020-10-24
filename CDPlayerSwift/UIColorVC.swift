@@ -148,7 +148,7 @@ class UIColorVC: UIViewController , UITableViewDelegate, UITableViewDataSource{
         
         return cell
     }
-    func tab(_ recoginzer : UITapGestureRecognizer){
+    @objc func tab(_ recoginzer : UITapGestureRecognizer){
         let tag : Int = (recoginzer.view?.tag)!
         let num : NSArray = attributeArr[tag] as! NSArray
         let count : NSArray = num.lastObject as! NSArray

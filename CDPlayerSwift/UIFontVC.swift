@@ -175,7 +175,7 @@ class UIFontVC: UIViewController, UITableViewDelegate, UITableViewDataSource{
         
         return cell
     }
-    func tab(_ recoginzer : UITapGestureRecognizer){
+    @objc func tab(_ recoginzer : UITapGestureRecognizer){
         let tag : Int = (recoginzer.view?.tag)!
         let num : NSArray = attributeArr[tag] as! NSArray
         let count : NSArray = num.lastObject as! NSArray
@@ -289,15 +289,15 @@ class UIFontVC: UIViewController, UITableViewDelegate, UITableViewDataSource{
             case 0:
                 a.font = UIFont.systemFont(ofSize: 20)
             case 1:
-                a.font = UIFont.systemFont(ofSize: 20, weight: 0.1)
+                a.font = UIFont.systemFont(ofSize: 20, weight: UIFont.Weight(rawValue: 0.1))
             case 2:
-                a.font = UIFont.systemFont(ofSize: 20, weight: 0.2)
+                a.font = UIFont.systemFont(ofSize: 20, weight: UIFont.Weight(rawValue: 0.2))
             case 3:
-                a.font = UIFont.systemFont(ofSize: 20, weight: 0.3)
+                a.font = UIFont.systemFont(ofSize: 20, weight: UIFont.Weight(rawValue: 0.3))
             case 4:
-                a.font = UIFont.systemFont(ofSize: 20, weight: 0.4)
+                a.font = UIFont.systemFont(ofSize: 20, weight: UIFont.Weight(rawValue: 0.4))
             case 5:
-                a.font = UIFont.systemFont(ofSize: 20, weight: 0.5)
+                a.font = UIFont.systemFont(ofSize: 20, weight: UIFont.Weight(rawValue: 0.5))
             default:
                 break
             }
@@ -307,9 +307,9 @@ class UIFontVC: UIViewController, UITableViewDelegate, UITableViewDataSource{
                 a.font = UIFont.systemFont(ofSize: 20)
                 a.text = "UIFont"
             case 1:
-                a.font = UIFont.monospacedDigitSystemFont(ofSize: 20, weight: 0.1)
+                a.font = UIFont.monospacedDigitSystemFont(ofSize: 20, weight: UIFont.Weight(rawValue: 0.1))
             case 2:
-                a.font = UIFont.monospacedDigitSystemFont(ofSize: 20, weight: 0.3)
+                a.font = UIFont.monospacedDigitSystemFont(ofSize: 20, weight: UIFont.Weight(rawValue: 0.3))
             case 3:
                 a.text = "01234567890123456789"
             default:

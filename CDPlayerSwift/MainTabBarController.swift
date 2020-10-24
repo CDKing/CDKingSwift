@@ -20,24 +20,23 @@ class MainTabBarController: UITabBarController ,UITabBarControllerDelegate{
         leftBarItem = UIBarButtonItem(title: "目录", style: UIBarButtonItemStyle.done, target: nil, action: #selector(MainTabBarController.leftBarItemTouchDown))
         uikit = UIKitVC()
         uikit.tabBarItem.title = "组件"
-        let dicA : NSDictionary = [NSForegroundColorAttributeName:UIColor.red]
-        let dicB : NSDictionary = [NSForegroundColorAttributeName:UIColor.purple]
-        uikit.tabBarItem.setTitleTextAttributes(dicB as? [String : AnyObject], for: UIControlState())
-        uikit.tabBarItem.setTitleTextAttributes(dicA as? [String : AnyObject], for: UIControlState.selected)
+        let dicA : NSDictionary = [NSAttributedStringKey.foregroundColor:UIColor.red]
+        let dicB : NSDictionary = [NSAttributedStringKey.foregroundColor:UIColor.purple]
+        uikit.tabBarItem.setTitleTextAttributes(dicB as? [NSAttributedStringKey : AnyObject], for: UIControlState())
+        uikit.tabBarItem.setTitleTextAttributes(dicA as? [NSAttributedStringKey : AnyObject], for: UIControlState.selected)
         uikit.tabBarItem.selectedImage = UIImage.init(named: "A1")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
         uikit.tabBarItem.image = UIImage.init(named: "A2")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
         
         fundation = FoundationVC()
         fundation.tabBarItem.title = "语法"
-        fundation.tabBarItem.setTitleTextAttributes(dicB as? [String : AnyObject], for: UIControlState())
-        fundation.tabBarItem.setTitleTextAttributes(dicA as? [String : AnyObject], for: UIControlState.selected)
+        fundation.tabBarItem.setTitleTextAttributes(dicB as? [NSAttributedStringKey : AnyObject], for: UIControlState())
+        fundation.tabBarItem.setTitleTextAttributes(dicA as? [NSAttributedStringKey : AnyObject], for: UIControlState.selected)
         fundation.tabBarItem.selectedImage = UIImage.init(named: "B1")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
         fundation.tabBarItem.image = UIImage.init(named: "B2")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
         
         other = OthersVC()
         other.tabBarItem.title = "其他"
-        other.tabBarItem.setTitleTextAttributes(dicB as? [String : AnyObject], for: UIControlState())
-        other.tabBarItem.setTitleTextAttributes(dicA as? [String : AnyObject], for: UIControlState.selected)
+        
         other.tabBarItem.selectedImage = UIImage.init(named: "C1")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
         other.tabBarItem.image = UIImage.init(named: "C2")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
         
@@ -50,7 +49,7 @@ class MainTabBarController: UITabBarController ,UITabBarControllerDelegate{
         fatalError("init(coder:) has not been implemented")
     }
     
-    func setMainTitle(userInfo : Notification)->Void{
+    @objc func setMainTitle(userInfo : Notification)->Void{
         let dic : NSDictionary = userInfo.userInfo! as NSDictionary
         let title = dic["title"]!
         firstName = (title as? String)!
@@ -69,7 +68,7 @@ class MainTabBarController: UITabBarController ,UITabBarControllerDelegate{
         NotificationCenter.default.addObserver(self, selector: #selector(setMainTitle(userInfo:)), name: NSNotification.Name(rawValue: "MainTitle"), object: nil)
         
     }
-    func leftBarItemTouchDown(){
+    @objc func leftBarItemTouchDown(){
         uikit.changeItem()
     }
     

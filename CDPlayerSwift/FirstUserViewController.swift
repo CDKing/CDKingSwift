@@ -130,7 +130,7 @@ class FirstUserViewController: UIViewController ,UIScrollViewDelegate{
         })
         viewA.addSubview(lblAA)
     }
-    func secondNotice(){
+    @objc func secondNotice(){
         let lblAAA : UILabel = UILabel(frame: CGRect(x: -1*WIDTH, y: 100.0, width: WIDTH, height: 50.0))
         lblAAA.textAlignment = NSTextAlignment.left
         lblAAA.numberOfLines = 0
@@ -147,7 +147,7 @@ class FirstUserViewController: UIViewController ,UIScrollViewDelegate{
         })
         viewA.addSubview(lblAAA)
     }
-    func thirdNotice(){
+    @objc func thirdNotice(){
         let lblAAAA : UILabel = UILabel(frame: CGRect(x: -1*WIDTH, y: 150.0, width: WIDTH, height: 50.0))
         lblAAAA.textAlignment = NSTextAlignment.left
         lblAAAA.numberOfLines = 0
@@ -164,7 +164,7 @@ class FirstUserViewController: UIViewController ,UIScrollViewDelegate{
         })
         viewA.addSubview(lblAAAA)
     }
-    func forthNotice(){
+    @objc func forthNotice(){
         let lblAAAA : UILabel = UILabel(frame: CGRect(x: -1*WIDTH, y: 200.0, width: WIDTH, height: 50.0))
         lblAAAA.textAlignment = NSTextAlignment.left
         lblAAAA.numberOfLines = 0
@@ -181,7 +181,7 @@ class FirstUserViewController: UIViewController ,UIScrollViewDelegate{
         })
         viewA.addSubview(lblAAAA)
     }
-    func fifthNotice(){
+    @objc func fifthNotice(){
         let lblAAAA : UILabel = UILabel(frame: CGRect(x: -1*WIDTH, y: 250.0, width: WIDTH, height: 50.0))
         lblAAAA.textAlignment = NSTextAlignment.left
         lblAAAA.numberOfLines = 0
@@ -198,7 +198,7 @@ class FirstUserViewController: UIViewController ,UIScrollViewDelegate{
         })
         viewA.addSubview(lblAAAA)
     }
-    func sixthNotice(){
+    @objc func sixthNotice(){
         let lblAAAA : UILabel = UILabel(frame: CGRect(x: -1*WIDTH, y: 300.0, width: WIDTH, height: 50.0))
         lblAAAA.textAlignment = NSTextAlignment.left
         lblAAAA.numberOfLines = 0
@@ -225,10 +225,10 @@ class FirstUserViewController: UIViewController ,UIScrollViewDelegate{
         if mainScrollView.contentOffset.x == WIDTH {
             pageControl.currentPage = 1
             // 进入使用按钮
-            btn.setTitle("进入", for: UIControlState())
+            btn.setTitle("进入", for: UIControl.State())
             btn.backgroundColor = UIColor.init(red: 1, green: 1, blue: 1, alpha: 0.5)
-            btn.setTitleColor(UIColor.red, for: UIControlState())
-            btn.addTarget(self, action: #selector(FirstUserViewController.btnTouch), for: UIControlEvents.touchDown)
+            btn.setTitleColor(UIColor.red, for: UIControl.State())
+            btn.addTarget(self, action: #selector(FirstUserViewController.btnTouch), for: UIControl.Event.touchDown)
             viewB.addSubview(btn)
             if btnFlag == 1 {
                 btnDown()
@@ -246,21 +246,21 @@ class FirstUserViewController: UIViewController ,UIScrollViewDelegate{
             self.btn.frame = CGRect(x: self.WIDTH/2-20, y: 300.0, width: 40.0, height: 40.0)
         })
     }
-    func btnBigger(){
+    @objc func btnBigger(){
         UIView.animate(withDuration: 0.2, animations: {
             self.btn.frame = CGRect(x: self.WIDTH/2-100, y: 120.0, width: 200.0, height: 200.0)
             self.btn.transform = self.btn.transform.rotated(by: 3.14)
         })
     }
-    func btnNormal(){
+    @objc func btnNormal(){
         UIView.animate(withDuration: 0.1, animations: {
             self.btn.frame = CGRect(x: self.WIDTH/2-50,y: 300.0, width: 100.0, height: 100.0)
             self.btn.transform = self.btn.transform.rotated(by: 3.14)
         })
     }
-    func btnTouch(){
+    @objc func btnTouch(){
         // 跳转画面
-        btn.setTitle("", for: UIControlState())
+        btn.setTitle("", for: UIControl.State())
         btnBBBig()
         self.perform(#selector(FirstUserViewController.jumpPage), with: self, afterDelay: 0.2)
         pageControl.removeFromSuperview()
@@ -272,7 +272,7 @@ class FirstUserViewController: UIViewController ,UIScrollViewDelegate{
             self.btn.backgroundColor = UIColor.init(red: 1, green: 1, blue: 1, alpha: 0.9)
         })
     }
-    func jumpPage(){
+    @objc func jumpPage(){
         // 进入主界面
         imgScrollView.removeFromSuperview()
         mainScrollView.removeFromSuperview()

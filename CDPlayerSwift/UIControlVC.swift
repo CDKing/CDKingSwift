@@ -144,7 +144,7 @@ class UIControlVC: UIViewController , UITableViewDelegate, UITableViewDataSource
         
         return cell
     }
-    func tabFunc(_ recoginzer : UITapGestureRecognizer){
+    @objc func tabFunc(_ recoginzer : UITapGestureRecognizer){
         let tag : Int = (recoginzer.view?.tag)!
         let num : NSArray = attributeArr[tag] as! NSArray
         let count : NSArray = num.lastObject as! NSArray

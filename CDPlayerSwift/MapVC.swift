@@ -50,11 +50,11 @@ class MapVC: UIViewController ,CLLocationManagerDelegate,MKMapViewDelegate{
         // Do any additional setup after loading the view.
     }
 
-    func backFunc() -> Void {
+    @objc func backFunc() -> Void {
         self.dismiss(animated: true, completion: nil)
     }
     
-    func backTransform() -> Void {
+    @objc func backTransform() -> Void {
         UIView.animate(withDuration: 0.2, animations: {
             self.mapView.transform = CGAffineTransform.init(translationX: 0, y: 0)
         })
@@ -135,14 +135,14 @@ class MapVC: UIViewController ,CLLocationManagerDelegate,MKMapViewDelegate{
 
     }
     
-    func leftViewAction() -> Void {
+    @objc func leftViewAction() -> Void {
         print("左视图被点击")
         UIView.animate(withDuration: 0.3, animations: {
             self.mapView.transform = CGAffineTransform.init(translationX: UIScreen.main.bounds.size.width/2, y: 0)
         })
     }
     
-    func rightViewAction() -> Void {
+    @objc func rightViewAction() -> Void {
         print("右视图被点击")
         UIView.animate(withDuration: 0.3, animations: {
             self.mapView.transform = CGAffineTransform.init(translationX: -1*UIScreen.main.bounds.size.width/2, y: 0)

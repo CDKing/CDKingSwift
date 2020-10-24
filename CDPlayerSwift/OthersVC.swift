@@ -96,7 +96,7 @@ class OthersVC: UIViewController ,UICollectionViewDelegate,UICollectionViewDataS
         
     }
     
-    func jumpToSubView(_ pageIndexPath : IndexPath){
+    @objc func jumpToSubView(_ pageIndexPath : IndexPath){
         switch pageIndexPath.row {
         case 0:
             self.present(MapVC(), animated: true, completion: nil)
